@@ -1,0 +1,41 @@
+1. Activer l'environnement virtuel :
+   - Sur Windows : venv\Scripts\activate
+   - Sur macOS et Linux : source venv/bin/activate
+   // Sert à activer l'environnement virtuel.
+
+2. Démarrer une application Flask :
+   - python app.py
+   // Lance votre application Flask, où "app.py" est le nom de votre fichier d'application.
+
+3. Gérer les dépendances avec pip :
+   - pip install package_name
+   // Pour installer des packages Python spécifiques à votre projet dans l'environnement virtuel.
+
+4. Exécuter l'application sur un port spécifique :
+   - app.run(port=5000)
+   // Spécifie le port sur lequel l'application Flask écoutera les requêtes (ici, le port 5000).
+
+5. Créer un fichier d'application Flask :
+   - touch app.py
+   // Pour créer un fichier Python qui servira de point d'entrée pour votre application Flask.
+
+6. Créer un environnement virtuel :
+   - virtualenv venv
+   // Pour créer un environnement virtuel dans le dossier de votre projet.
+
+7. Désactiver l'environnement virtuel :
+   - deactivate
+   // Pour quitter l'environnement virtuel et revenir à l'environnement global.
+
+8. Supprimer un environnement virtuel :
+   - Supprimez le dossier de l'environnement virtuel (par exemple, "venv") manuellement.
+
+9. Créer un modèle HTML :
+   - Créez un fichier HTML dans le répertoire des modèles de votre projet.
+
+10. Gérer des fichiers statiques (CSS, images, etc.) :
+    - Placez des fichiers statiques dans un dossier "static" dans votre projet.
+
+11. Gérer des formulaires Flask-WTF :
+    - from flask_wtf import FlaskForm
+    // Importez Flask-WTF pour créer des formulaires dans votre application Flask.
